@@ -1,0 +1,32 @@
+.adjustLeft {
+  margin-left: -500px;
+  /* margin-right: 200px; */
+}
+
+.header {
+  padding-top: 280px;
+  font-size: xx-large;
+  font-weight: 600;
+  color: white;
+  background-color: hsl(257, 40%, 49%);
+}
+.text {
+  font-size: x-large;
+  margin-left: 1px;
+}
+
+/* .register:hover{ */
+button {
+  text-align: center;
+  border-style: none;
+  border-radius: 40px;
+  /* border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%; */
+  /* background-color: white; */
+  font-size: x-large;
+  height: 70px;
+  width: 200px;
+  padding: 10px;
+}

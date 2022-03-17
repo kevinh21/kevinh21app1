@@ -1,0 +1,24 @@
+https://fontawesome.com/icons?d=gallery
+
+https://youtu.be/L4CK3j72SfM
+
+
+=============For overlaping images
+
+.image-stack::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* Then for the top image we’ll add: */
+
+.image-stack__item--top {
+  float: left;
+  width: 66%;
+  margin-right: -100%;
+  padding-top: 15%;
+  position: relative;
+  z-index: 1;
+}
+==========================================

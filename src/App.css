@@ -1,0 +1,46 @@
+/* ///////////////   NOT WORKING   /////////////////////////////// */
+/* 
+@media (min-width: 600px) {
+  .text {
+    height: 520px;
+  }
+  .text-wrapper {
+    text-align: left;
+
+  }
+  button {
+    width: 200px;
+    height: 57px;
+    border-radius: 35px;
+    color: hsl(257, 40%, 49%);
+    font-size: 16px;
+    font-weight: 600;
+    border-color: -internal-light-dark(hsl(257, 40%, 49%), hsl(257, 40%, 49%));
+  }
+} */
+
+/* //////////////////////////////////////////////// */
+
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+.App {
+  padding-left: 80px;
+  padding-top: 30px;
+  width: 100%;
+  font-family: Poppins;
+  font-weight: 400;
+  /* background-color: hsl(257, 40%, 49%); */
+}
+
+.layout {
+  display: flex;
+  flex-direction: column right;
+  /* flex: left; */
+  /* width: 100%; */
+  /* padding-left: 50%; */
+  font-size: calc(10px + 2vmin);
+  /* background-color: hsl(257, 40%, 49%); */
+}
+
+/* // */
